@@ -1,0 +1,111 @@
+/* 超連結全轉塊元素 */
+a {
+    display: block;
+}
+/* 先全設成標楷 */
+body {
+    width: 100vw;
+    font-family: '標楷體';
+}
+header {
+    background-color: #b6a05a;
+    height: 200px;
+}
+/* header標題 */
+.header-title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Times New Roman, Times, serif';
+}
+.change-flex {
+    display: flex;
+}
+.phone-banner {
+    display: none;
+}
+/* banner區，浮空 */
+banner {
+    position: fixed;
+    width: 100vw;
+    padding: 10px 0px;
+    justify-content: space-between;
+    background-color: #1e6c93;
+}
+banner>div {
+    margin-right: 22px;
+    cursor: pointer;
+}
+/* 科名標題 */
+.title-name {
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'serif';
+}
+/* 上方橫選單 */
+ul.change-flex {
+    font-size: 16px;
+}
+ul.change-flex>li {
+    margin-right: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+ul.change-flex>li>a {
+    height: 25px;
+}
+/* 下拉選單 */
+.btn-menu {
+    position: relative;
+}
+.btn-menu ul {
+    display: none;
+    font-size: 14px;
+}
+/* 各自寬度 */
+ul.change-flex :nth-child(2) ul {
+    width: 85px;
+}
+ul.change-flex :nth-child(4) ul {
+    width: 75px;
+}
+ul.change-flex :nth-child(5) ul {
+    width: 100px;
+}
+ul.change-flex :nth-child(6) ul {
+    width: 80px;
+    right: 0;
+}
+/* 知道選哪個 */
+.btn-menu ul li:hover {
+    background-color: #9fc9df;
+}
+.btn-menu:hover ul {
+    display: block;
+}
+.btn-menu ul {
+    position: absolute;
+    background-color: #5ca8ce;
+}
+.btn-menu ul li {
+    height: 25px;
+    line-height: 25px;
+}
+/* footer */
+footer {
+    line-height: 20px;
+    background-color: darkgrey;
+    padding: 5px;
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
+/* main暫時 */
+main {
+    /* padding-top: 10px; */
+}
+.main-container {
+    width: 90vw;
+    margin: 0 auto;
+}

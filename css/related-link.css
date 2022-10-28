@@ -1,0 +1,14 @@
+.change-flex {
+    cursor: pointer;
+}
+.toggle-menu {
+    position: relative;
+}
+.toggle-menu>li {
+    position: absolute;
+    display: none;
+}
+.toggle-menu>li:nth-child(2) {
+    display: block;
+}
+/* 切換 */
