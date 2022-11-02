@@ -44,7 +44,7 @@ banner>div {
 }
 /* 上方橫選單 */
 ul.change-flex {
-    font-size: 16px;
+    font-size: 18px;
 }
 ul.change-flex>li {
     margin-right: 10px;
@@ -60,20 +60,20 @@ ul.change-flex>li>a {
 }
 .btn-menu ul {
     display: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 /* 各自寬度 */
 ul.change-flex :nth-child(2) ul {
     width: 85px;
 }
 ul.change-flex :nth-child(4) ul {
-    width: 75px;
+    width: 85px;
 }
 ul.change-flex :nth-child(5) ul {
-    width: 100px;
+    width: 120px;
 }
 ul.change-flex :nth-child(6) ul {
-    width: 80px;
+    width: 90px;
     right: 0;
 }
 /* 知道選哪個 */
@@ -88,8 +88,8 @@ ul.change-flex :nth-child(6) ul {
     background-color: #5ca8ce;
 }
 .btn-menu ul li {
-    height: 25px;
-    line-height: 25px;
+    height: 30px;
+    line-height: 30px;
 }
 /* footer */
 footer {

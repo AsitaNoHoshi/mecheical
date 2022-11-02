@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../../css/index-phone.css">
     <!-- 相關連結css -->
     <link rel="stylesheet" href="../../css/related-link.css">
+    <!-- 切換箱 -->
+    <script src="../../js/js-1.0.0.js"></script>
     <title>相關連結</title>
 </head>
 <body>
@@ -18,7 +20,8 @@
     <!-- 頂端橫幅 -->
         <banner class="change-flex">
             <!-- 移動端顯示，三橫線 -->
-            <img src="" alt="" class="phone-banner">
+            <!-- css精靈 -->
+            <div class="phone-banner"></div>
             <!-- 標題，可回首頁 -->
             <a href="../../index.html" class="title-name">Dept.&nbsp;of&nbsp;Mechanical&nbsp;-&nbsp;KIHS</a>
             <div>
@@ -48,7 +51,7 @@
                         <ul>
                             <li><a href="">107/108新課綱</a></li>
                             <li><a href="">電子書</a></li>
-                            <li><a href="">相關連結</a></li>
+                            <li><a href="related-link.html">相關連結</a></li>
                         </ul>
                     </li>
                     <li class="btn-menu">更多選項
@@ -69,7 +72,7 @@
     <main>
         <div class="main-container">
             <div>
-                <ul class="change-flex">
+                <ul class="change-flex" onclick="test(event)">
                     <li>升學資訊</li>
                     <li>大學端校網</li>
                     <li>技能檢定</li>

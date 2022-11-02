@@ -1,8 +1,8 @@
-@media screen and (max-width:830px) and (min-width:671px) {
+/* @media screen and (max-width:830px) and (min-width:671px) {
     li , p , a {
         font-size: 12px;
     }
-}
+} */
 
 @media screen and (max-width:670px) {
     p , a {
@@ -12,12 +12,16 @@
         font-size: 40px;
     }
     .phone-banner {
+        /* 把關閉的塊打開 */
         display: block;
-        height: 16px;
-        width: 16px;
+        background-image: url('../images/css-spire.png');
+        background-position: 0px 0px;
+        margin-left: 5px;
+        height: 25px;
+        width: 25px;
         background-color: aqua;
     }
-    ul.change-flex {
+    header ul.change-flex {
         display: none;
     }
 }
