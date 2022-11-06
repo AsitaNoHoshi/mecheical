@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../../css/index-phone.css">
     <!-- 升學成績css -->
     <link rel="stylesheet" href="../../css/college.css">
+    <!-- 切換箱 -->
+    <script src="../../js/js-1.0.0.js"></script>
     <title>升學成績</title>
 </head>
 <body>
@@ -70,11 +72,9 @@
         <div class="main-container">
             <!-- 紅榜幻燈片 -->
             <div class="slideshow-bar"></div>
-            <!-- 歷年名單 -->
-            <div class="calender-list"></div>
             <div>
                 <h4>機械科升學統計表</h4>
-                <table>
+                <table id="tabl">
                     <thead>
                         <tr>
                             <td>學校/年度</td>
@@ -98,7 +98,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>111</td>
+                            <td class="years">111</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -117,7 +117,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>110</td>
+                            <td class="years">110</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -136,7 +136,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>109</td>
+                            <td class="years">109</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -155,7 +155,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>108</td>
+                            <td class="years">108</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -174,7 +174,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>107</td>
+                            <td class="years">107</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -193,7 +193,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>106</td>
+                            <td class="years">106</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -212,7 +212,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>105</td>
+                            <td class="years">105</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -231,7 +231,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>104</td>
+                            <td class="years">104</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -250,7 +250,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>103</td>
+                            <td class="years">103</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -271,7 +271,18 @@
                     </tbody>
                 </table>
             </div>
+            <!-- 歷年名單 -->
+            <div class="calender-list"></div>
         </div>
     </main>
+    <script type="text/javascript">
+        var tes = document.querySelector("table");
+        tes.onclick = function(e) {
+            console.log(e.target.innerText);
+        };
+        // console.log(tes);
+        let ter = document.getElementById('tabl');
+        console.log(ter);
+    </script>
 </body>
 </html>

@@ -1,14 +1,22 @@
+.main-container {
+    flex-direction: column;
+}
 .change-flex {
     cursor: pointer;
 }
-.toggle-menu {
-    position: relative;
+.click_box{
+    margin: 8px auto;
+    width: 100%;
+    justify-content: space-evenly;
 }
 .toggle-menu>li {
-    position: absolute;
     display: none;
 }
-.toggle-menu>li:nth-child(2) {
+.toggle-menu>li:first-child {
     display: block;
 }
-/* 切換 */
+.layer-menu a{
+    width: fit-content;
+    height: 30px;
+    line-height: 30px;
+}

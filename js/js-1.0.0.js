@@ -1,9 +1,8 @@
-function test(e) {
+function change_box(e) {
     // 取得選取選項的文字
     let check_text = e.target.innerText;
     // 抓取切換箱
     let toggle_menu = document.querySelectorAll('ul.toggle-menu>li');
-
     toggle_menu.forEach(
         function(items) {
             items.style.display = 'none';

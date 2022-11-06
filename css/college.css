@@ -1,5 +1,18 @@
+.main-container {
+    flex-direction: column;
+}
 td {
     border: 1px solid #000;
     text-align: center;
     padding: 5px;
+}
+.calender-list {
+    width: 200px;
+    height: 200px;
+}
+/* td內文字變小 */
+@media screen and (max-width:1070px) {
+    td {
+        font-size: 12px;
+    }
 }
