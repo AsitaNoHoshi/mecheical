@@ -1,22 +1,17 @@
-.main-container {
-    flex-direction: column;
+main .change-flex {
+    display: flex;
+    justify-content: space-evenly;
 }
 .change-flex {
     cursor: pointer;
 }
-.click_box{
-    margin: 8px auto;
-    width: 100%;
-    justify-content: space-evenly;
+.toggle-menu {
+    position: relative;
 }
 .toggle-menu>li {
+    position: absolute;
     display: none;
 }
 .toggle-menu>li:first-child {
     display: block;
-}
-.layer-menu a{
-    width: fit-content;
-    height: 30px;
-    line-height: 30px;
 }

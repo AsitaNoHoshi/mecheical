@@ -12,82 +12,83 @@ header {
     height: 200px;
 }
 /* header標題 */
-.header-title {
+header .header-title {
     font-size: 60px;
     text-align: center;
     margin-top: 100px;
     font-family: 'Times New Roman, Times, serif';
 }
-.change-flex {
+/* 限定在header的.change-flex改為浮動 */
+header .change-flex {
     display: flex;
 }
-.phone-banner {
+header div.phone-banner {
     display: none;
 }
 /* banner區，浮空 */
-banner {
+header banner {
     position: fixed;
     width: 100vw;
     padding: 10px 0px;
     justify-content: space-between;
     background-color: #1e6c93;
 }
-banner>div {
+header banner>div {
     margin-right: 22px;
     cursor: pointer;
 }
 /* 科名標題 */
-.title-name {
+header .title-name {
     margin-left: 10px;
     font-size: 24px;
     font-family: 'serif';
 }
 /* 上方橫選單 */
-ul.change-flex {
-    font-size: 18px;
+header ul.change-flex {
+    font-size: 16px;
 }
-ul.change-flex>li {
+header ul.change-flex>li {
     margin-right: 10px;
     text-align: center;
     line-height: 25px;
 }
-ul.change-flex>li>a {
+header ul.change-flex>li>a {
     height: 25px;
 }
 /* 下拉選單 */
-.btn-menu {
+header .btn-menu {
     position: relative;
 }
-.btn-menu ul {
+header .btn-menu ul {
     display: none;
     font-size: 16px;
 }
 /* 各自寬度 */
-ul.change-flex :nth-child(2) ul {
+header ul.change-flex :nth-child(2) ul {
     width: 85px;
 }
-ul.change-flex :nth-child(4) ul {
+header ul.change-flex :nth-child(4) ul {
     width: 85px;
 }
-ul.change-flex :nth-child(5) ul {
+header ul.change-flex :nth-child(5) ul {
     width: 120px;
 }
-ul.change-flex :nth-child(6) ul {
+header ul.change-flex :nth-child(6) ul {
     width: 90px;
     right: 0;
 }
 /* 知道選哪個 */
-.btn-menu ul li:hover {
+header .btn-menu ul li:hover {
     background-color: #9fc9df;
 }
-.btn-menu:hover ul {
+header .btn-menu:hover ul {
     display: block;
 }
-.btn-menu ul {
+header .btn-menu ul {
     position: absolute;
     background-color: #5ca8ce;
 }
-.btn-menu ul li {
+header .btn-menu ul li {
     height: 30px;
     line-height: 30px;
 }
@@ -101,12 +102,7 @@ footer p {
     text-align: center;
     font-size: 14px;
 }
-/* main暫時 */
-main {
-    /* padding-top: 10px; */
-}
 .main-container {
     width: 90vw;
     margin: 0 auto;
-    display: flex;
 }
