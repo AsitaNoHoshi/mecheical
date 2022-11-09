@@ -1,6 +1,7 @@
 ul.float-flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 ul.float-flex>li {
     display: flex;
@@ -9,6 +10,8 @@ ul.float-flex>li {
     background-color: bisque;
     align-items: center;
     margin-top: 8px;
+    /* 限制最大及最小寬度 */
+    min-width: 300px;
 }
 .teacher-data {
     list-style: circle;
