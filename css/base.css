@@ -45,7 +45,7 @@ header .title-name {
 }
 /* 上方橫選單 */
 header ul.change-flex {
-    font-size: 16px;
+    font-size: 18px;
 }
 header ul.change-flex>li {
     margin-right: 10px;
@@ -92,6 +92,14 @@ header .btn-menu ul li {
     height: 30px;
     line-height: 30px;
 }
+/* main */
+main {
+    margin-top: 5px;
+}
+.main-container {
+    width: 90vw;
+    margin: 0 auto;
+}
 /* footer */
 footer {
     line-height: 20px;
@@ -101,8 +109,4 @@ footer {
 footer p {
     text-align: center;
     font-size: 14px;
-}
-.main-container {
-    width: 90vw;
-    margin: 0 auto;
 }

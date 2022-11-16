@@ -1,6 +1,10 @@
+main {
+    font-size: 18px;
+}
 main .change-flex {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 .change-flex {
     cursor: pointer;
@@ -11,7 +15,18 @@ main .change-flex {
 .toggle-menu>li {
     position: absolute;
     display: none;
+    
 }
 .toggle-menu>li:first-child {
     display: block;
+}
+.options-box {
+    /* 拉開行距 */
+    line-height: 28px;
+}
+.options-box li {
+    width: fit-content;
+}
+.options-box a:hover {
+    box-shadow: 3px 3px 2px 1px grey;
 }

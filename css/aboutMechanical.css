@@ -1,0 +1,13 @@
+.main-container div {
+    font-size: 18px;
+    line-height: 25px;
+}
+h5 {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 6px auto;
+}
+/* span標籤劃重點 */
+span {
+    font-weight: bold;
+}

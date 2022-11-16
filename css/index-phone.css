@@ -1,12 +1,26 @@
-/* @media screen and (max-width:830px) and (min-width:671px) {
-    li , p , a {
+@media screen and (max-width:1035px) and (min-width:873px) {
+    td {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:872px) and (min-width:821px) {
+    td {
         font-size: 12px;
     }
-} */
+}
+@media screen and (max-width:820px) and (min-width:721px) {
+    header ul.change-flex {
+        font-size: 16px;
+    }
+    td {
+        font-size: 11px;
+        padding: 2px 2px;
+    }
+}
 
 @media screen and (max-width:720px) {
-    p , a {
-        font-size: 12px;
+    .main-container {
+        width: 100vw;
     }
     .header-title {
         font-size: 40px;
