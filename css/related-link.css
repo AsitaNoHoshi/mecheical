@@ -1,32 +1,39 @@
-main {
-    font-size: 18px;
-}
 main .change-flex {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+}
+main .toggle-bar {
+    margin: 5px auto 0px auto;
 }
 .change-flex {
     cursor: pointer;
 }
 .toggle-menu {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
 }
 .toggle-menu>li {
-    position: absolute;
     display: none;
-    
 }
 .toggle-menu>li:first-child {
     display: block;
 }
-.options-box {
-    /* 拉開行距 */
-    line-height: 28px;
+.li-shadow {
+    margin-top: 15px;
 }
-.options-box li {
+.li-shadow li {
+    margin-bottom: 8px;
+}
+.li-shadow a {
     width: fit-content;
+    padding: 2px 4px;
+    box-sizing: border-box;
+    margin: auto auto;
 }
-.options-box a:hover {
-    box-shadow: 3px 3px 2px 1px grey;
+/* related-link及form-download */
+.li-shadow a:hover {
+    box-shadow: grey 3px 4px 4px 0px;
+    background-color: rgba(238, 27, 73, 0.4);
 }

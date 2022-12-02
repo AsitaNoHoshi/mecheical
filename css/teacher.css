@@ -5,7 +5,7 @@ ul.float-flex {
 }
 ul.float-flex>li {
     display: flex;
-    width: 33.33%;
+    width: 50%;
     flex-direction: column;
     background-color: bisque;
     align-items: center;
