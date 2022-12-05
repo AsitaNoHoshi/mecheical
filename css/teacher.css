@@ -1,18 +1,26 @@
 ul.float-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 ul.float-flex>li {
     display: flex;
     width: 50%;
     flex-direction: column;
     background-color: bisque;
-    align-items: center;
     margin-top: 8px;
     /* 限制最大及最小寬度 */
-    min-width: 300px;
+    max-width: 450px;
+    min-width: 350px;
+}
+ul.float-flex img , .name , .position , .email {
+    text-align: center;
 }
 .teacher-data {
+    margin-left: 5px;
     list-style: circle;
+    list-style-position: inside;
+}
+.teacher-data ul {
+    text-indent: 2em;
 }

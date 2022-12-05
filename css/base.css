@@ -92,6 +92,10 @@ header .btn-menu ul li {
     height: 30px;
     line-height: 30px;
 }
+/* main */
+main {
+    margin-bottom: 10px;
+}
 /* footer */
 footer {
     line-height: 20px;
